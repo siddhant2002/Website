@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 1%;
+}
+
+.left
+{
+    position: relative;
+    left: 2%;
+}
+
+.left img
+{
+    width: 150px;
+    height: 30px;
+}
+
+.right
+{
+    position: relative;
+    right: 5%;
+}
+
+.demo-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.container
+{
+    display: flex;
+}
