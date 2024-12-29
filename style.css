@@ -129,7 +129,7 @@ h2 {
 .form-container {
     background-color: white;
     color: black;
-    padding: 2em;
+    padding: 2.5em 1em;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -138,6 +138,7 @@ h2 {
     display: block;
     font-weight: bold;
     margin: 10px 0 5px;
+    font-weight: 200;
 }
 
 .form-box input {
@@ -145,22 +146,26 @@ h2 {
     padding: 0.8em;
     border: 1px solid #ccc;
     border-radius: 5px;
+    border: 1px solid blue;
 }
 
 .submit-button {
     background-color: #007BFF;
     color: white;
+    margin-top: 5%;
     border: none;
-    padding: 0.8em;
+    padding: 0.8em 3em;
+    width: 100%;
     font-size: 1rem;
     border-radius: 5px;
+    font-weight: 700;
     cursor: pointer;
 }
 
 footer {
     text-align: center;
     padding: 2em 1em;
-    background-color: #0a0134;
+    background-color: #1e194c;
     color: white;
     margin-top: 2em;
 }
@@ -271,6 +276,7 @@ footer p:first-child {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
+    font-weight: 700;
   }
   
   .program-card {
@@ -280,10 +286,18 @@ footer p:first-child {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
+
+  .program-card span
+  {
+    color: #ff3333;
+  }
   
   .program-card img {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    object-fit: contain;
+    height: 200px;
+    position: relative;
+    left: 5%;
     display: block;
   }
   
@@ -324,7 +338,7 @@ footer p:first-child {
   .duration {
     font-size: 14px;
     font-weight: bold;
-    color: #666666;
+    color: #ff3333;
     margin: 5px 0;
   }
   
@@ -348,112 +362,31 @@ footer p:first-child {
     cursor: pointer;
     font-weight: bold;
   }
-  
+
   .details-button {
     background-color: #dddddd;
     color: #1a1a40;
   }
   
   .demo-button {
-    background-color: #ffcc00;
     color: #1a1a40;
   }
-  
-  .programs-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
-  .program-card {
-    background-color: #ffffff;
-    color: #1a1a40;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .program-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .card-content {
-    padding: 15px;
-  }
-  
-  .tags {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .tags button {
-    padding: 5px 10px;
-    font-size: 12px;
-    background-color: #dddddd;
-    border: none;
-    border-radius: 5px;
-    cursor: default;
-  }
-  
-  .tags button:nth-child(1) {
-    background-color: #43a047;
-    color: white;
-  }
-  
-  .tags button:nth-child(2) {
-    background-color: #f57c00;
-    color: white;
-  }
-  
-  .tags button:nth-child(3) {
-    background-color: #e53935;
-    color: white;
-  }
-  
-  .duration {
-    font-size: 14px;
-    font-weight: bold;
-    color: #666666;
-    margin: 5px 0;
-  }
-  
-  .description {
-    font-size: 14px;
-    margin-bottom: 15px;
-    color: #444444;
-  }
-  
-  .buttons {
-    display: flex;
-    gap: 10px;
-  }
-  
-  .details-button,
-  .demo-button {
-    padding: 10px 15px;
-    font-size: 14px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  .details-button {
-    background-color: #dddddd;
-    color: #1a1a40;
-  }
-  
-  .demo-button {
-    background-color: #ffcc00;
-    color: #1a1a40;
-  }
-  
+  .ab1 {
+    background-color: rgb(50, 155, 50);
+ }
+ .ab2 {
+    background-color: rgb(212, 204, 42);
+ }
+
+ .ab3 {
+    background-color: rgb(41, 210, 222);
+ }
+ .ab4 {
+    background-color: rgb(200, 64, 209);
+ }
+ .ab5 {
+    background-color: rgb(40, 139, 219);
+ }
   
   .certificates-section {
     padding: 40px 20px;
