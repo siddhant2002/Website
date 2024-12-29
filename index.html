@@ -7,94 +7,242 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <div class="navbar">
         <div class="left">
-            <img src="Images/img1.jpeg" alt="logo">
+            <img src="Images/img1.jpeg" alt="Skyy Skill Academy Logo">
         </div>
         <div class="right">
-            <button class="demo-btn">Book a Free Demo</button>
+            <button class="demo-btn" aria-label="Book a Free Demo">Book a Free Demo</button>
         </div>
     </div>
-<div class="content">
-    <div class="container">
-        <div class="left1">
-            <button class="btn1">100% PLACEMENT GUARANTEE</button>
-            <h2>Post Graduation Program On Full Stack Web Development with <span class="inner">Python/Java</span></h2>
-            <button class="btn2">Learn in Hindi</button>
-            <p>Certificate Partners:-</p>
-            <div class="inner-image1">
-                <div class="inner-image11">
-                    <img src="Images/img2.jpeg" alt="image2">
-                </div>
-                <p>E&ICT <br> IIT Guwahati</p>
-                <div class="inner-image12">
-                    <img src="Images/img3.jpeg" alt="image3">
-                </div>
-            </div>
-            <div class="inner-image2">
-                <div class="inner-image21">
-                    <img src="Images/img4.jpeg" alt="image4">
-                </div>
-                <p></p>
-                <div class="inner-image22">
-                    <img src="Images/img5.jpeg" alt="image5">
-                </div>
-            </div>
-            <p>Next Batch Starts From <span>22 April, 2024</span> </p>
-            <div class="info">
-                <div class="left2">
-                    <img src="Images/img6.jpeg" alt="image6">
-                </div>
-                <div class="right2">
-                    <p>Live/ Offline/ Hybrid Mode Choose as per your convenience</p>
-                </div>
 
-                <div class="left2">
-                    <img src="Images/img6.jpeg" alt="image6">
+    <!-- Main Content -->
+    <div class="content">
+        <div class="container">
+            <!-- Left Section -->
+            <div class="left1">
+                <button class="btn1">100% PLACEMENT GUARANTEE</button>
+                <h2>Post Graduation Program on Full <br> Stack Web Development with <br> <span class="inner">Python/Java</span></h2>
+                <button class="btn2">Learn in Hindi</button>
+                <p>Certificate Partners:</p>
+                <div class="certificates">
+                    <img src="Images/img2.jpeg" alt="E&ICT IIT Guwahati">
+                    <img src="Images/img3.jpeg" alt="ASDC Skill India">
                 </div>
-                <div class="right2">
-                    <p>25+ Industry Complying Skills Grow Exponentially</p>
+                <div class="date">
+                    <p>Next Batch Starts From <span>22 April, 2024</span></p>
                 </div>
-
-                <div class="left2">
-                    <img src="Images/img6.jpeg" alt="image6">
-                </div>
-                <div class="right2">
-                    <p>Globally Accepted Certificate by ASDC (Skill India) & IIT Guwahati</p>
-                </div>
-
-                <div class="left2">
-                    <img src="Images/img6.jpeg" alt="image6">
-                </div>
-                <div class="right2">
-                    <p>LOR & Internship Letter No Career Break</p>
-                </div>
+                <ul class="info">
+                    <li><img src="Images/img7.jpeg" alt="Icon"> Live/ Offline/ Hybrid Mode Choose as per your convenience</li>
+                    <li><img src="Images/img7.jpeg" alt="Icon"> 25+ Industry Complying Skills Grow Exponentially</li>
+                    <li><img src="Images/img7.jpeg" alt="Icon"> Globally Accepted Certificate by ASDC (Skill India) & IIT Guwahati</li>
+                    <li><img src="Images/img7.jpeg" alt="Icon"> LOR & Internship Letter No Career Break</li>
+                </ul>
+                <button class="btn3">EXPLORE ALL PROGRAMS</button>
             </div>
 
-            <button>EXPLORE ALL PROGRAMS</button>
+            <!-- Right Section (Form) -->
+            <div class="right1">
+                <div class="form-container">
+                    <form action="#" method="POST" class="form-box">
+                        <label for="name">Name<span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email<span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="phone">Phone<span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
+
+                        <label for="education">Education Qualification<span class="required">*</span></label>
+                        <input type="text" id="education" name="education" required>
+
+                        <label for="year">Year of Pass Out<span class="required">*</span></label>
+                        <input type="number" id="year" name="year" required>
+
+                        <button type="submit" class="submit-button">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="right1">
-            <form class="styled-form">
-                <label for="name">Name<span class="required">*</span></label>
-                <input type="text" id="name" name="name" required>
-    
-                <label for="email">Email<span class="required">*</span></label>
-                <input type="email" id="email" name="email" required>
-    
-                <label for="phone">Phone<span class="required">*</span></label>
-                <input type="tel" id="phone" name="phone" required>
-    
-                <label for="qualification">Education Qualification<span class="required">*</span></label>
-                <input type="text" id="qualification" name="qualification" required>
-    
-                <label for="year">Year of Pass Out<span class="required">*</span></label>
-                <input type="text" id="year" name="year" required>
-    
-                <button type="submit" class="submit-btn">Submit</button>
-            </form>
-        </div>
+
+        <footer>
+            <p>10 Months Program: 100% Live Sessions & Offline Sessions</p>
+            <div class="footer-stats">
+                <div>
+                    <h3>200+</h3>
+                    <p>Hiring Partners</p>
+                </div>
+                <div>
+                    <h3>4 LPA</h3>
+                    <p>Avg Salary</p>
+                </div>
+                <div>
+                    <h3>50+</h3>
+                    <p>Instructors</p>
+                </div>
+                <div>
+                    <h3>1000+</h3>
+                    <p>Students Placed</p>
+                </div>
+            </div>
+        </footer>
+        
     </div>
-    <p>10 Months Program: 100% Live Sessions & Offline Sessions</p>
-</div>
+
+
+
+    <div class="banner">
+        <h2>Our learners got <span class="highlight">placed in</span></h2>
+        <div class="logo-container">
+          <img src="Images/img8.jpeg" alt="Netflix">
+          <img src="Images/img9.jpeg" alt="LinkedIn">
+          <img src="Images/img10.jpeg" alt="Microsoft">
+          <img src="Images/img11.jpeg" alt="Google">
+          <img src="Images/img12.jpeg" alt="Capgemini">
+          <img src="Images/img13.jpeg" alt="TCS">
+          <img src="Images/img14.jpeg" alt="PwC">
+        </div>
+      </div>
+    
+
+
+      <!-- NEXT PHASE -->
+
+      <div class="page-banner">
+        <h1>Unlock Your <span class="highlight">Dream Job</span> with Our IT Programs</h1>
+        <div class="sub-heading">100% PLACEMENT GUARANTEE PROGRAMS</div>
+      </div>
+    
+      <div class="programs-container">
+        <!-- Card 1 -->
+        <div class="program-card">
+          <img src="Images/img15.jpeg" alt="MERN Stack Program">
+          <div class="card-content">
+            <div class="tags">
+              <button>Online</button>
+              <button>Offline</button>
+              <button>Hybrid</button>
+            </div>
+            <p class="duration">10 Months of</p>
+            <p class="description">Post Graduation Program on MERN Stack Web Development</p>
+            <div class="buttons">
+              <button class="details-button">More Details</button>
+              <button class="demo-button">Book a Free Demo</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 2 -->
+        <div class="program-card">
+          <img src="Images/img16.jpeg" alt="Java & React Program">
+          <div class="card-content">
+            <div class="tags">
+              <button>Online</button>
+              <button>Hybrid</button>
+            </div>
+            <p class="duration">10 Months of</p>
+            <p class="description">Post Graduation Program on Full Stack Development with Java & React js</p>
+            <div class="buttons">
+              <button class="details-button">More Details</button>
+              <button class="demo-button">Book a Free Demo</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 3 -->
+        <div class="program-card">
+          <img src="Images/img17.jpeg" alt="React Js Program">
+          <div class="card-content">
+            <div class="tags">
+              <button>Online</button>
+              <button>Offline</button>
+              <button>Hybrid</button>
+            </div>
+            <p class="duration">10 Months of</p>
+            <p class="description">Post Graduation Program on Front-End Development with React Js</p>
+            <div class="buttons">
+              <button class="details-button">More Details</button>
+              <button class="demo-button">Book a Free Demo</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 4 -->
+        <div class="program-card">
+          <img src="Images/img18.jpeg" alt="Game Development Program">
+          <div class="card-content">
+            <div class="tags">
+              <button>Online</button>
+            </div>
+            <p class="duration">10 Months of</p>
+            <p class="description">Post Graduation Program on Game Development & AR/VR</p>
+            <div class="buttons">
+              <button class="details-button">More Details</button>
+              <button class="demo-button">Book a Free Demo</button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Card 5 -->
+        <div class="program-card">
+          <img src="Images/img19.jpeg" alt="Python Program">
+          <div class="card-content">
+            <div class="tags">
+              <button>Online</button>
+            </div>
+            <p class="duration">10 Months of</p>
+            <p class="description">Post Graduation Program on Full Stack Web Development with Python</p>
+            <div class="buttons">
+              <button class="details-button">More Details</button>
+              <button class="demo-button">Book a Free Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      
+      <div class="certificates-section">
+        <h1>Program Certificates</h1>
+        <div class="tabs">
+          <button class="tab active">E&ICT IIT Guwahati</button>
+          <button class="tab">Internship</button>
+          <button class="tab">Skyy Skill</button>
+          <button class="tab">LOR</button>
+        </div>
+        <div class="certificate-content">
+          <div class="certificate-image">
+            <img src="Images/img20.jpeg" alt="Certificate of Completion">
+          </div>
+          <div class="certificate-details">
+            <h2>Post Graduation Certification From E&ICT Academy, IIT Guwahati</h2>
+            <p>
+              Upon successfully completing this program, you’ll earn a Post Graduation Certification 
+              in MERN Stack Development that is jointly offered by E&ICT Academy, IIT Guwahati as the Knowledge Partner.
+            </p>
+            <ul>
+              <li><img src="Images/img21.jpeg" alt="Tick mark"> Mentorship sessions & Classes by IIT G faculties</li>
+              <li><img src="Images/img21.jpeg" alt="Tick mark"> Mentorship sessions & Classes by IIT G faculties</li>
+              <li><img src="Images/img21.jpeg" alt="Tick mark"> Mentorship sessions & Classes by IIT G faculties</li>
+              <li><img src="Images/img21.jpeg" alt="Tick mark"> Mentorship sessions & Classes by IIT G faculties</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="query-section">
+        <h2>Still have queries? <span>Contact Us</span></h2>
+        <p>
+          Request a callback. An expert from the admission office will call you in <br> the next 24 working hours.
+          <br>
+          You can also reach out to us at <span class="email">info@skyyyskill.com</span> or <span class="phone">8800889353</span>
+        </p>
+        <button class="callback-btn">Request a Call back</button>
+        <div class="footer">
+          © 2011-2024 <a href="#">SkyySkill Academy</a> - All Rights Reserved.
+        </div>
+      </div>      
 </body>
 </html>
