@@ -628,7 +628,9 @@ footer p:first-child {
   }
   
   .footer {
+    position: absolute;
     margin-top: 30px;
+    width: 98%;
     font-size: 14px;
     background-color: #e1ca6e;;
     color: black;
