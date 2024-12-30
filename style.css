@@ -649,6 +649,9 @@ footer p:first-child {
 
 /* For Tablets (screens smaller than 768px) */
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
     .navbar {
         flex-direction: column;
         padding: 1em;
@@ -704,6 +707,10 @@ footer p:first-child {
 
 /* For Mobile Devices (screens smaller than 480px) */
 @media (max-width: 480px) {
+
+    body {
+        overflow-x: hidden;
+    }
     .navbar {
         padding: 0.5em;
     }
